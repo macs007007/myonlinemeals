@@ -1,0 +1,200 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navigation bar */
+
+#navbar {
+    flex-direction: column;
+  }
+  
+  #navbar::before {
+   height: 80%;
+  
+  }
+  
+  /* logo and image  */
+  
+  #logo {
+      margin: 0px 0px;
+  }
+  
+  #logo img {
+      margin: 10px 10px;
+      height: 40px;
+  }
+  
+  /* list styling */
+  
+  #navbar ul {
+   margin-top: -8px;
+  
+  }
+  
+  #navbar ul li {
+      
+  }
+  
+  #navbar ul li a {
+    font-size: 10px;
+    padding: 6px 10px;
+  }
+  
+  #navbar ul li a:hover {
+      
+  
+  }
+  
+  /* home section  */
+  
+  #home {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #home::before {
+     height: 470px;
+     width: 300vw;
+     
+  }
+  
+  .heading {
+    font-size: 18px;
+    margin-top: -10px;
+  }
+  
+  .heading h1 {
+  
+     
+  
+  }
+  
+  .para {
+    width: 220px;
+    font-size: 10px;
+  }
+  
+  .btn {
+  
+  }
+  
+  .b {
+    background-color: brown;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    font-size: 8px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  /* Services section  */
+  
+  #services {
+      
+  margin-top: 10px;
+  }
+  
+  
+  
+  .auto{
+   
+  }
+  .services {
+  flex-direction: column;
+  margin-top: 15px;
+  }
+  
+  #services h1 {
+    font-size: 25px;
+  }
+  .top10px{
+      
+  }
+  
+  .box {
+      
+    width: 230px;
+    height: 255px;
+  }
+  
+  .box img {
+    height: 100px;
+  }
+  
+  .box h2 {
+    font-size: 22px;
+  }
+  
+  .box p {
+    font-size: 12px;
+  }
+  
+  /* Our Clients Section  */
+  #clientssection {
+     
+   
+  }
+  
+  #clientssection::before {
+  
+  }
+  
+  #clientssection h1 {
+    font-size: 25px;
+  }
+  
+  .clients {
+    margin-top: 20px;
+  }
+  
+  .clientsitems {
+    padding: 5px;
+  }
+  
+  .clientsitems img {
+    height: 35px;
+  }
+  
+  
+  /* Contact us section  */
+  #contacts {
+    margin-top: 39px;
+  }
+  
+  #contacts::before {
+  
+  
+  }
+  
+  #contacts h1 {
+    font-size: 25px;
+  }
+  
+  .contactbox {
+      
+  }
+  
+  .contactbox form {
+      width: 70%;
+  }
+  
+  .contactbox form label {
+    font-size: 12px;
+  }
+  
+  .contactbox input,
+  .contactbox textarea {
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 10px;}
+  
+  /* footer  */
+  footer {
+  
+  font-size: 7px;
+  }

@@ -1,0 +1,193 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* navigation bar */
+
+#navbar {
+  flex-direction: column;
+}
+
+#navbar::before {
+ 
+
+}
+
+/* logo and image  */
+
+#logo {
+    margin: 6px 12px;
+}
+
+#logo img {
+    margin: 0px 10px;
+    height: 65px;
+}
+
+/* list styling */
+
+#navbar ul {
+ 
+
+}
+
+#navbar ul li {
+    
+}
+
+#navbar ul li a {
+    font-size: 18px;
+    padding: 6px 25px;
+}
+
+#navbar ul li a:hover {
+    
+
+}
+
+/* home section  */
+
+#home {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+#home::before {
+   height: 470px;
+   width: 170vw;
+   
+}
+
+.heading {
+ font-size: 30px;
+ margin-top: 55px;
+}
+
+.heading h1 {
+
+   
+
+}
+
+.para {
+ width: 530px;
+}
+
+.btn {
+
+}
+
+.b {
+ 
+}
+
+/* Services section  */
+
+#services {
+    
+margin-top: 10px;
+}
+
+
+
+.auto{
+ 
+}
+.services {
+flex-direction: column;
+
+}
+
+#services h1 {
+  font-size: 40px;
+}
+.top10px{
+    
+}
+
+.box {
+    
+  width: 470px;
+  height: 340px;
+}
+
+.box img {
+  height: 160px;
+}
+
+.box h2 {
+  font-size: 35px;
+}
+
+.box p {
+   
+}
+
+/* Our Clients Section  */
+#clientssection {
+   
+ 
+}
+
+#clientssection::before {
+
+}
+
+#clientssection h1 {
+  font-size: 40px;
+}
+
+.clients {
+  margin-top: 20px;
+}
+
+.clientsitems {
+  padding: 15px;
+}
+
+.clientsitems img {
+  height: 60px;
+}
+
+
+/* Contact us section  */
+#contacts {
+  margin-top: 54px;
+}
+
+#contacts::before {
+
+
+}
+
+#contacts h1 {
+  font-size: 40px;
+}
+
+.contactbox {
+    
+}
+
+.contactbox form {
+    width: 70%;
+}
+
+.contactbox form label {
+  font-size: 20px;
+}
+
+.contactbox input,
+.contactbox textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+/* footer  */
+footer {
+
+
+}
